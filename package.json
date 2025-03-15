@@ -1,0 +1,20 @@
+{
+  "name": "c_to_node",
+  "version": "1.0.0",
+  "scripts": {
+    "ffi": "npx tsx src/ffi_method.ts",
+    "koffi": "npx tsx src/koffi_method.ts"
+  },
+  "keywords": [],
+  "author": "Auios",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "ffi-rs": "^1.2.8",
+    "koffi": "^2.10.1"
+  }
+}
