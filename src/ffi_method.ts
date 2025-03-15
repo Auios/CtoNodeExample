@@ -23,7 +23,6 @@ async function main() {
   const a = 5;
   const b = 10;
 
-  console.log(`Calling C function add(${a}, ${b})`);
   const result = await callAddFunction(a, b);
   console.log(`Result: ${result}`);
 
