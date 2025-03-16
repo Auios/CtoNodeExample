@@ -4,6 +4,7 @@ int add(int left, int right) {
   printf("Adding %d and %d\n", left, right);
   return left + right;
 }
+
 int subtract(int left, int right) {
   printf("Subtracting %d from %d\n", right, left);
   return left - right;

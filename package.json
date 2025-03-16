@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ffi": "npx tsx src/ffi_method.ts",
-    "koffi": "npx tsx src/koffi_method.ts"
+    "koffi": "npx tsx src/koffi_method.ts",
+    "wasm": "npx tsx src/wasm_method.ts"
   },
   "keywords": [],
   "author": "Auios",
